@@ -1,6 +1,6 @@
 # CareHub - Aged Care Management System
 
-A web-based management system for aged care facilities built with PHPand MySQL
+A web-based management system for aged care facilities built with PHP and MySQL
 
 ## Features
 - Role-based authentication (Manager, Carer, Elderly)
