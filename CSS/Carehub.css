@@ -1,0 +1,239 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+     overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 100px;
+    background: #0D95C9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    transform: scale(0.8);
+    margin-left: -5%;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLogin-popup:hover{
+    background: white;
+    color: black;
+}
+#h1-topic{
+    margin-top: 240px;
+    margin-left: 5%;
+}
+#p1{
+    margin-left: 5%;
+    font-size: 24px;
+}
+#img-size{
+    width: 50%;
+    position: relative;
+    margin-left: 50%;
+    margin-top: -25%;
+    z-index: -1;
+}
+#decpic{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -8%;
+    width: 32%;
+    z-index: -1;
+}
+#button{
+    background-color: #0D95C9;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 5%;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #2ca9db;
+}
+.hero{
+    position: relative;
+}
+.topic-size{
+    font-size: 96px;
+}
+.topic-size2{
+    font-size: 64px;
+}
+#blue-pic{
+    margin-top: -10%;
+}
+#sec-topic{
+    color: white;
+    margin-top: -53%;
+    font-size: 96px;
+    margin-left: 45%;
+}
+.bigger-text{
+    font-size: 128px;
+}
+.box1{
+    position: absolute;
+    background-color: white;
+    border-radius: 54px;
+    width: 15%;
+    height: 35%;
+    margin-top: 4%;
+    margin-left: 12%;
+    font-size: 26px;
+    padding-top: 2%;
+    padding-left: 1.5%;
+}
+.icon{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 55%;
+    transform: scale(0.7)
+}
+.text-box{
+    position: absolute;
+    padding-right: 5%;
+    margin-top: 15%;
+    font-size: 20px;
+}
+.box2{
+    position: absolute;
+    background-color: white;
+    border-radius: 54px;
+    width: 15%;
+    height: 35%;
+    margin-top: 4%;
+    margin-left: 32%;
+    font-size: 26px;
+    padding-top: 2%;
+    padding-left: 1.5%;
+}
+.box3{
+    position: absolute;
+    background-color: white;
+    border-radius: 54px;
+    width: 15%;
+    height: 35%;
+    margin-top: 4%;
+    margin-left: 52%;
+    font-size: 26px;
+    padding-top: 2%;
+    padding-left: 1.5%;
+}
+.box4{
+    position: absolute;
+    background-color: white;
+    border-radius: 54px;
+    width: 15%;
+    height: 35%;
+    margin-top: 4%;
+    margin-left: 72%;
+    font-size: 26px;
+    padding-top: 2%;
+    padding-left: 1.5%;
+}
+#blue2{
+    margin-top: 40%;
+    margin-left: 60%;
+}
+#topic3{
+    margin-top: -16%;
+    margin-left: 62%;
+    font-size: 64px;
+}
+.bigger-text2{
+    font-size: 96px;
+}
+#p3{
+    margin-top: 5%;
+    margin-left: 62%;
+    font-size: 24px;
+}
+#map-pic{
+    width: 55%;
+    margin-top: -35%;
+}
+#button2{
+    background-color: #0D95C9;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: #2ca9db;
+}
+#footer{
+    background-color: #0D95C9;
+    width: 110%;
+    padding: 20px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;      
+
+}
+#footer-text{
+    color: white;
+    margin-left: 50%;
+}
